@@ -1,5 +1,4 @@
 /* Include padding and border in element size by default */
-
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,11 +6,11 @@
 }
 
 /* Set background color for main body */
-
 body {
     background-color: #d9dcd6;
 }
 
+/* Formatting for header section */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -19,15 +18,18 @@ header {
     color: #ffffff;
 }
 
+/* Formatting for header h1 elements */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-span {
+/* Formatting for header h1 span elements */
+header h1 span {
     color: #d9dcd6;
 }
 
+/* Formatting for header nav elements */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -36,46 +38,54 @@ header nav {
     font-size: 20px;
 }
 
+/* Formatting for header nav links */
 header nav a {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Formatting for links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Setting font size for p tags */
 p {
     font-size: 16px;
 }
 
+/* Formatting for meeting image */
 figure img {
 
-    display:block ;
-    width: 100% ;
-    height: 800px ;
+    display: block;
+    width: 100%;
+    height: 800px;
     object-fit: cover;
     margin-bottom: 25px;
 
 }
 
+/* Used to float elements to the left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Used to float elements to the right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Formatting for main elements */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Formatting for aside elements */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -87,16 +97,19 @@ aside {
     background-color: #2589bd;
 }
 
+/* Formatting for aside section elements */
 aside section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Formatting for aside section h3 elements */
 aside section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Formatting for aside section img elements */
 aside section img {
     display: block;
     margin: 10px auto;
@@ -124,6 +137,7 @@ main h2 {
     font-size: 36px;
 }
 
+/* Formatting for footer elements */
 footer {
     padding: 30px;
     clear: both;
@@ -131,6 +145,7 @@ footer {
     text-align: center;
 }
 
+/* Formatting for footer h4 elements */
 footer h4 {
     font-size: 20px;
 }
